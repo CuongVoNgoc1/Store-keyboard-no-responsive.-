@@ -8,8 +8,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
-
 .header row {
     margin-top: 70px;
 }
@@ -33,16 +31,15 @@
 }
 
 
-.navbar .navbar-item ul{
+.navbar .navbar-item ul {
     display: flex;
     list-style: none;
     padding: 0 0 0 40px;
 }
 
 .navbar .navbar-item li {
-    padding: 0 15px;
+    padding: 0 8px;
 }
-
 
 .navbar .navbar-item li a {
     color: #555;
@@ -70,7 +67,6 @@
     border: none;
 }
 
-
 .navbar form button {
     padding: 0 15px;
     background: #fff;
@@ -89,7 +85,6 @@
 }
 
 .row {
-    /* background: url(./image/zoom65-ee-v2.jpg) no-repeat center; */
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -100,27 +95,6 @@
     flex-basis: 40%;
     min-width: 300px;
 }
-
-/* .col-2 img {
-    position: relative;
-    max-width: 100%;
-    padding: 50px 0;
-    left: 21px;
-    top: -73px;
-
-}
-
-.col-2 h1 {
-    font-size: 50px;
-    line-height: 60px;
-    margin: 48px;
-    color: #79787B;
-}
-
-.col-2 p {
-    margin: 50px;
-    font-size: 20px;
-} */
 
 .btn {
     position: relative;
@@ -140,7 +114,7 @@
 }
 
 
-.categories{
+.categories {
     margin: 70px 0;
 }
 
@@ -154,16 +128,18 @@
 .col-3 img {
     width: 100%;
 }
-.col-3 p{
-    
+
+.col-3 p {
+
     font-size: 20px;
     font-weight: bolder;
 }
-.col-3 span{
+
+.col-3 span {
     font-size: 15px;
     line-height: 20px;
     font-weight: 700;
-    /* padding: 10px; */
+
     margin-top: 20px;
 }
 
@@ -172,7 +148,6 @@
     margin: auto;
     padding: 0px 25px;
 }
-
 
 .col-4 {
     flex-basis: 25%;
@@ -207,7 +182,6 @@
 }
 
 h4 {
-
     color: #555;
     font-weight: bolder;
 }
@@ -237,6 +211,7 @@ h4 {
     color: #8B8E96;
     font-size: 14px;
     padding: 60px 0 20px;
+    width: 100%;
 }
 
 .footer p {
@@ -316,18 +291,14 @@ ul {
 
 .menu-icon {
     position: absolute;
-    /* display: none; */
     width: 28px;
     margin-left: 90%;
-    /* display: none; */
 
 }
 
 .search-box {
     width: 100%;
     position: relative;
-
-    /* display: flex; */
 }
 
 .search-box__input {
@@ -349,12 +320,14 @@ ul {
     font-size: 20px;
     border: none;
     background: none;
-
 }
+
+.right-colum img {
+    width: 100%;
+}
+
+
+
+
 /* media query  menu */
 
-@media only screen and (max-width: 800px){
-  .navbar-item ul li a{
-    display: block;
-  }
-}
