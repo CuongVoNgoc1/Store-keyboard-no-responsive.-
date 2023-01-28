@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
 
     <link rel="stylesheet" href="style.css">
     <title>KaanStore</title>
@@ -36,7 +37,28 @@
         </div>
         <div class="banner">
             <div class="right-colum">
-                <img src="./image/zoom65v2-skyblue-pvd-prism-1674403957780.jpg" alt="">
+                <!-- <img src="./image/zoom65v2-skyblue-pvd-prism-1674403957780.jpg" alt=""> -->
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img src="./image/Zoom65v2_ScarletRed_eWhite_1024x.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./image/zoom65v2-black-ano-gold-1674385950743.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./image/zoom65v2-lilac-ano-black-1674404326869.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./image/zoom65v2-skyblue-pvd-prism-1674403957780.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./image/zoom65v2-teal-ano-pink-1674408481306.jpg" alt=""></div>
+                        
+                        ...
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+
+                </div>
             </div>
         </div>
         <!-- featured products -->
@@ -191,10 +213,9 @@
     </div>
 
 
-    <script src="./index.js">
-
-    </script>
-
+    <!-- <script src="index.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="../store-keyboard/index.js"></script>
 </body>
 
 </html>
