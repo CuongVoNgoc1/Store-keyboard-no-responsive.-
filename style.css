@@ -47,6 +47,9 @@
     font-weight: 700;
     text-decoration: none;
 }
+.navbar .navbar-item li a:hover{
+    color: #ff523b;
+}
 
 .navbar form {
     display: flex;
@@ -167,6 +170,8 @@
     position: relative;
     line-height: 60px;
     color: #555;
+    font-weight: 700;
+    font-size: 30px;
 }
 
 .title::after {
@@ -325,9 +330,4 @@ ul {
 .right-colum img {
     width: 100%;
 }
-
-
-
-
-/* media query  menu */
 
