@@ -1,26 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-
+    <!-- css -->
     <link rel="stylesheet" href="style.css">
     <title>KaanStore</title>
 </head>
-
 <body>
+    <!-- Header -->
     <div class="header">
         <div class="navbar">
             <div class="logo">KAAN.STORE</div>
             <div class="navbar-item">
                 <ul>
-                    <li><a href="">TRANG CHỦ</a></li>
+                    <li><a class="text-orange-500" href="">TRANG CHỦ</a></li>
                     <li><a href="">GIỚI THIỆU</a></li>
                     <li><a href="">SẢN PHẨM <i class="fa fa-caret-down"></i></a></li>
                     <li><a href="">CHÍNH SÁCH</a></li>
@@ -35,38 +35,41 @@
                 <button type="submit" class="fas fa-search"></button>
             </form>
         </div>
+        <!-- banner -->
         <div class="banner">
-            <div class="right-colum">
-                <!-- <img src="./image/zoom65v2-skyblue-pvd-prism-1674403957780.jpg" alt=""> -->
-                <!-- Slider main container -->
+            <div class="right-colum">     
                 <div class="swiper">
                     <!-- Additional required wrapper -->
                     <div class="swiper-wrapper">
                         <!-- Slides -->
-                        <div class="swiper-slide"><img src="./image/Zoom65v2_ScarletRed_eWhite_1024x.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="./image/zoom65v2-black-ano-gold-1674385950743.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="./image/zoom65v2-lilac-ano-black-1674404326869.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="./image/zoom65v2-skyblue-pvd-prism-1674403957780.jpg" alt=""></div>
-                        <div class="swiper-slide"><img src="./image/zoom65v2-teal-ano-pink-1674408481306.jpg" alt=""></div>
-                        
-                        ...
+                        <div class="swiper-slide"><img src="./image/slider_1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./image/slider_2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./image/slider_3.jpg" alt=""></div>
                     </div>
-                    <!-- If we need pagination -->
                     <div class="swiper-pagination"></div>
-
-                    <!-- If we need navigation buttons -->
                     <div class="swiper-button-prev"></div>
                     <div class="swiper-button-next"></div>
-
                 </div>
             </div>
         </div>
-        <!-- featured products -->
+        <!-- bàn phím -->
         <div class="small-container">
             <h2 class="title">Bàn Phím Cơ</h2>
             <div class="row">
                 <div class="col-4">
-                    <img src="./image/zoom65-ee-v2.jpg" alt="">
+                    <img src="./image/zoom65v2-ivorycream-ano-black.jpg" alt="">
+                    <h4>Zoom65 EE V2</h4>
+                    <p>4.250.000đ</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="./image/1-77-dm94jck-1663681260224.png" alt="">
+                    <h4>Zoom65 EE V2</h4>
+                    <p>4.250.000đ</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="./image/e-cream-1673607721670.jpg" alt="">
                     <h4>Zoom65 EE V2</h4>
                     <p>4.250.000đ</p>
                 </div>
@@ -78,17 +81,27 @@
                 </div>
 
                 <div class="col-4">
-                    <img src="./image/zoom65-ee-v2.jpg" alt="">
-                    <h4>Zoom65 EE V2</h4>
-                    <p>4.250.000đ</p>
+                    <img src="./image/nj81-full-1674706912053.jpg" alt="">
+                    <h4>Bàn phím Keydous NJ81 Mạch xuôi - Trắng</h4>
+                    <p>2.812.030₫</p>
                 </div>
-
                 <div class="col-4">
-                    <img src="./image/zoom65-ee-v2.jpg" alt="">
-                    <h4>Zoom65 EE V2</h4>
-                    <p>4.250.000đ</p>
+                    <img src="./image/nj81-kit.jpg" alt="">
+                    <h4>Bàn phím Keydous NJ81 Mạch xuôi - Only Kit</h4>
+                    <p>2.181.530₫</p>
+                </div>
+                <div class="col-4">
+                    <img src="./image/bia-v65.jpg" alt="">
+                    <h4>The V65 Keyboard Kit - Instock</h4>
+                    <p>2.181.530₫</p>
+                </div>
+                <div class="col-4">
+                    <img src="./image/nj80-1674707228353.jpg" alt="">
+                    <h4>Bàn phím cơ Keydous NJ80 - AP Version</h4>
+                    <p>2.597.000₫</p>
                 </div>
             </div>
+            <!-- keycap -->
             <h2 class="title">KEYCAP</h2>
             <div class="row">
                 <div class="col-4">
@@ -114,9 +127,33 @@
                     <h4>Keycap SA AIFEI BUBLE - ABS Doubleshot - 237 Phím</h4>
                     <p>950.000₫</p>
                 </div>
+
+                <div class="col-4">
+                    <img src="./image/keycap cr-mizu.jpg" alt="">
+                    <h4>Keycap Cherry Mizu Water ABS doubleshot</h4>
+                    <p>552.000₫</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="./image/cherry-matsu.jpg" alt="">
+                    <h4>Keycap Cherry PBT Dyesub Matsu</h4>
+                    <p>542.800₫</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="./image/cherry-devil-fish.jpg" alt="">
+                    <h4>Keycap Cherry Devil Fish ABS doubleshot</h4>
+                    <p>550.000₫</p>
+                </div>
+
+                <div class="col-4">
+                    <img src="./image/cherry-apollo.jpg" alt="">
+                    <h4>Keycap Cherry ABS Doubleshot Apollo/h4>
+                    <p>506.000₫</p>
+                </div>
             </div>
         </div>
-
+<!-- phụ kiện -->
         <h2 class="title">PHỤ KIỆN ĐI KÈM</h2>
         <div class="row">
             <div class="col-4">
@@ -144,16 +181,7 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-    <!-- offer -->
-
-
-
+    <!-- tin tức -->
     <h2 class="title">TIN TỨC</h2>
     <div class="categories">
         <div class="smaill-container">
@@ -215,7 +243,7 @@
 
     <!-- <script src="index.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <script src="../store-keyboard/index.js"></script>
+    <script src="index.js"></script>
 </body>
 
 </html>
